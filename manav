@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class manavv {
+    public static void main(String[] args) {
+
+        double armut , elma, domates ,muz , patlıcan , toplamtutar ;
+        double armutKg = 2.14 , elmaKg = 3.67 , domatesKg = 1.11 , muzKg = 0.95 ,patlıcanKg = 5.0 ;
+
+        Scanner girdi = new Scanner(System.in);
+        System.out.print("Armut kg :");
+        armut = girdi.nextDouble();
+
+        System.out.print("Elma kg :");
+        elma = girdi.nextDouble();
+
+        System.out.print("Domates kg :");
+        domates = girdi.nextDouble();
+
+        System.out.print("Muz kg :");
+        muz = girdi.nextDouble();
+
+        System.out.print("Patlıcan kg :");
+        patlıcan = girdi.nextDouble();
+
+        toplamtutar = (armut * armutKg) + (elma * elmaKg) + (domates * domatesKg) + (muz * muzKg) +(patlıcan * patlıcanKg);
+
+        System.out.print("Toplam tutar :" +toplamtutar);
+
+
+    }
+}
